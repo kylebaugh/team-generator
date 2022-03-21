@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <h1>Team Generator!</h1>
+      <p>Input names separated by a comma</p>
+    <textarea 
+       name=""
+       id="myInput"
+       cols="30"
+       rows="10"
+       placeholder="Put the name, split it with one comma and one white space (, )"
+    ></textarea
+    ><br />
+    <p>How many people per team?</p>
+    <input type="number" placeholder="Amount" id="numberTeam" />
+    <button type="button" id="buttons" onclick="getInputValue()" value="Submit">
+      Get Teams!
+    </button>
+    <div id="output"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
